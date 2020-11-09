@@ -243,6 +243,7 @@ namespace foonathan
 
 #include "detail/container_node_sizes.hpp"
 
+#define FOONATHAN_MEMORY_NO_NODE_SIZE
 #if !defined(FOONATHAN_MEMORY_NO_NODE_SIZE)
         /// \exclude
         namespace detail
